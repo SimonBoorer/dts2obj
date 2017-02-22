@@ -43,10 +43,10 @@
 void printUsage()
 {
    Con::printf(
-      "DTS-2-OBJ Converter v%s (c) GarageGames, LLC.\n\n"
-      "dts2obj [options] dtsFilename\n\n"
-      "--output objFilename   Set the output OBJ filename.\n"
-      "Exits with zero on success, non-zero on failure\n\n",
+"DTS-2-OBJ Converter v%s (c) GarageGames, LLC.\n\n"
+"dts2obj [options] dtsFilename\n\n"
+"--output objFilename   Set the output OBJ filename.\n"
+"Exits with zero on success, non-zero on failure\n\n",
       TORQUE_APP_VERSION_STRING);
 }
 
